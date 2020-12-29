@@ -1,0 +1,112 @@
+.Heading
+{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 18px whitesmoke;
+    font-family: 'Russo One', sans-serif;
+}
+
+.Note
+{
+    font-size: 15px;
+    color: black;   
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+body
+{
+    background-size: cover;
+}
+
+.Div_Speed
+{
+    float: left;
+}
+
+.Div_Volume
+{
+    float: right;
+}
+
+.Div_Speed_Image
+{
+    width: 200px;
+    border-radius: 100px;
+    transform: rotateY(180deg);
+}
+
+.Div_Volume_Image
+{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#Speed , #Volume
+{
+    font-size: 17px;
+    margin: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    animation-name: Animation3;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+}
+
+.Copyright_Footer
+{
+    bottom: 0;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.Footer
+{
+    font-size: 23px;
+}
+
+.Play_Button
+{
+font-size: 25px;
+width: 130px;
+border-radius: 100px;
+animation-name: Animation2;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+font-family: 'Bungee Outline', cursive;
+font-weight: bold;
+}
+
+
+canvas
+{
+border:5px solid whitesmoke;
+border-radius: 20px;
+animation-name: Animation1;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+
+}
+
+@keyframes Animation1
+{
+from {box-shadow: 1px 1px 30px red;}
+to {box-shadow: 1px 1px 30px yellow;}
+}
+
+@keyframes Animation2
+{
+from {color: blue;}
+to {color: red;}
+}
+
+@keyframes Animation3
+{
+from {font-size: small;}
+to {font-size: x-large;}
+}
